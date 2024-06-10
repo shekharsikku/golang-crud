@@ -1,0 +1,6 @@
+# ignore editor dir & temp folders/files
+.vscode
+tmp/*
+
+# environment variable
+.env
