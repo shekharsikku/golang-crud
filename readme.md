@@ -1,6 +1,6 @@
-## **Simple CRUD Operation Using Golang & MongoDB**
+# **Simple CRUD Operation Using Golang & MongoDB**
 
-### **Add important environment variables**
+Rename `.env.sample` file to `.env` and add environment variables
 
 ```bash
 MONGODB_URI=""
@@ -8,15 +8,15 @@ PORT=""
 ENV="development"
 ```
 
-### **Run in debug mode**
+### Run in debug mode
 
-_This command will use air.toml configuration and run main.go file_
+This command will use air.toml configuration and run main.go file
 
 ```bash
 air
 ```
 
-### **Run using go run command**
+### Run using go run command
 
 ```bash
 go run main.go
